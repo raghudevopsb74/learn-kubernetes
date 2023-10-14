@@ -1,11 +1,13 @@
 grafana:
   ingress:
     enabled: true
+    ingressClassName: nginx
     hosts:
       - grafana.rdevopsb72.online
 
 prometheus:
   ingress:
     enabled: true
+    ingressClassName: nginx
     hosts:
       - prometheus.rdevopsb72.online
