@@ -3,6 +3,7 @@ kind: Pod
 metadata:
   name: test
 spec:
+  serviceAccountName: cart
   containers:
   - name: test
     image: 633788536644.dkr.ecr.us-east-1.amazonaws.com/roboshop-aws-ps-init-cont:2.0.3
